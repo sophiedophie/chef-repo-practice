@@ -1,0 +1,42 @@
+{
+  "revision_id": "03895e9933361e8ccda444da6b062ebcdf54f62a51c947b8a219d3fbab8ec11d",
+  "name": "myiis",
+  "run_list": [
+    "recipe[myiis::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "myiis": {
+      "version": "0.3.0",
+      "identifier": "0f03d214cbcd912e4cba48473e03956dabb21f1e",
+      "dotted_decimal_identifier": "4226325477576081.13032211888946691.164298264551198",
+      "source": "cookbooks/myiis",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "cookbooks/myiis"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "myiis",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "myiis (0.3.0)": [
+
+      ]
+    }
+  }
+}

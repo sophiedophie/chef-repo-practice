@@ -1,0 +1,225 @@
+{
+  "revision_id": "eeb18789484be233e2544341b77d0c67f3f15fd0f1d59f20604c66d58bdb1cd3",
+  "name": "myhaproxy",
+  "run_list": [
+    "recipe[myhaproxy::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "build-essential": {
+      "version": "8.2.1",
+      "identifier": "4b9d5c72796184085681d3eefd625c90b79530a8",
+      "dotted_decimal_identifier": "21283643636408708.2346915420110178.101776625053864",
+      "cache_key": "build-essential-8.2.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/build-essential/versions/8.2.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/build-essential/versions/8.2.1/download",
+        "version": "8.2.1"
+      }
+    },
+    "cpu": {
+      "version": "2.0.0",
+      "identifier": "78364308a80f3f58aed592a665c04c5d6a5d457e",
+      "dotted_decimal_identifier": "33836658741219135.24962030262183360.83964100167038",
+      "cache_key": "cpu-2.0.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/cpu/versions/2.0.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/cpu/versions/2.0.0/download",
+        "version": "2.0.0"
+      }
+    },
+    "haproxy": {
+      "version": "3.0.4",
+      "identifier": "222f5e2b7c9c267e3818988d8e4b93e7abb0c41b",
+      "dotted_decimal_identifier": "9622230711180326.35527525355327051.162623227216923",
+      "cache_key": "haproxy-3.0.4-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/haproxy/versions/3.0.4/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/haproxy/versions/3.0.4/download",
+        "version": "3.0.4"
+      }
+    },
+    "mingw": {
+      "version": "2.1.0",
+      "identifier": "9f5d572c671e4a85015941a73f9d8f54820af19e",
+      "dotted_decimal_identifier": "44857150285487690.37437654767714205.157593121780126",
+      "cache_key": "mingw-2.1.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/mingw/versions/2.1.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/mingw/versions/2.1.0/download",
+        "version": "2.1.0"
+      }
+    },
+    "myhaproxy": {
+      "version": "1.0.0",
+      "identifier": "fb78d114130cd60f6eaaf2681fb875e1b5488052",
+      "dotted_decimal_identifier": "70783058534665430.4343805141065656.129612269518930",
+      "source": "cookbooks/myhaproxy",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": "5b4f8dd4af8dc0502ec498da413a7a5716d51acf",
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "cookbooks/myhaproxy"
+      }
+    },
+    "poise": {
+      "version": "2.8.2",
+      "identifier": "5eada1fb133c83935c2ce413b8f2506e4e3cab6d",
+      "dotted_decimal_identifier": "26649559024483459.41478169451280626.88434689223533",
+      "cache_key": "poise-2.8.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/poise/versions/2.8.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/poise/versions/2.8.2/download",
+        "version": "2.8.2"
+      }
+    },
+    "poise-service": {
+      "version": "1.5.2",
+      "identifier": "d92d3eba6af21847bef3d05dcb875485e290e3bc",
+      "dotted_decimal_identifier": "61129817385005592.20194677728594823.92934008529852",
+      "cache_key": "poise-service-1.5.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/poise-service/versions/1.5.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/poise-service/versions/1.5.2/download",
+        "version": "1.5.2"
+      }
+    },
+    "seven_zip": {
+      "version": "3.1.1",
+      "identifier": "a76d3fe4342d6eba9c88a3282920eceb511bafe9",
+      "dotted_decimal_identifier": "47126442289671534.52526456334985504.260495422238697",
+      "cache_key": "seven_zip-3.1.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/seven_zip/versions/3.1.1/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/seven_zip/versions/3.1.1/download",
+        "version": "3.1.1"
+      }
+    },
+    "windows": {
+      "version": "6.0.0",
+      "identifier": "afff0357b4898d5fb194d40ead730018569f7a9d",
+      "dotted_decimal_identifier": "49538510745799053.26935375558520179.104532507293",
+      "cache_key": "windows-6.0.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/6.0.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/6.0.0/download",
+        "version": "6.0.0"
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "build-essential",
+        "= 8.2.1"
+      ],
+      [
+        "cpu",
+        "= 2.0.0"
+      ],
+      [
+        "haproxy",
+        "= 3.0.4"
+      ],
+      [
+        "mingw",
+        "= 2.1.0"
+      ],
+      [
+        "myhaproxy",
+        ">= 0.0.0"
+      ],
+      [
+        "poise",
+        "= 2.8.2"
+      ],
+      [
+        "poise-service",
+        "= 1.5.2"
+      ],
+      [
+        "seven_zip",
+        "= 3.1.1"
+      ],
+      [
+        "windows",
+        "= 6.0.0"
+      ]
+    ],
+    "dependencies": {
+      "build-essential (8.2.1)": [
+        [
+          "seven_zip",
+          ">= 0.0.0"
+        ],
+        [
+          "mingw",
+          ">= 1.1.0"
+        ]
+      ],
+      "cpu (2.0.0)": [
+
+      ],
+      "haproxy (3.0.4)": [
+        [
+          "cpu",
+          ">= 0.2.0"
+        ],
+        [
+          "build-essential",
+          ">= 0.0.0"
+        ],
+        [
+          "poise-service",
+          ">= 0.0.0"
+        ]
+      ],
+      "mingw (2.1.0)": [
+        [
+          "seven_zip",
+          ">= 0.0.0"
+        ]
+      ],
+      "myhaproxy (1.0.0)": [
+        [
+          "haproxy",
+          "~> 3.0.0"
+        ]
+      ],
+      "poise (2.8.2)": [
+
+      ],
+      "poise-service (1.5.2)": [
+        [
+          "poise",
+          "~> 2.0"
+        ]
+      ],
+      "seven_zip (3.1.1)": [
+        [
+          "windows",
+          ">= 0.0.0"
+        ]
+      ],
+      "windows (6.0.0)": [
+
+      ]
+    }
+  }
+}

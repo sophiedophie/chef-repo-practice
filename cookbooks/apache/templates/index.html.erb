@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Why it's still wednesday</title>
+  </head>
+  <body>
+    <h1>See the details of the machine:</h1>
+    <p>node's platform: <%= node['platform'] %></p>
+    <p>total memory : <%= node['memory']['total'] %></p>
+    <p>hostname:  <%= node['hostname'] %></p>
+    <p>CPU speed(>> does it mean mhz?):  <%= node['cpu']['0']['mhz'] %></p>
+  </body>
+</html>
